@@ -1,0 +1,14 @@
+.logo{
+	margin:auto auto 0px;
+	width:80%;
+	height: 0px;
+	padding-bottom:48%;
+	background: url("../images/loggasmall.png");
+	background-size: 100%;
+	background-position:0px 0px;
+	background-repeat:no-repeat;
+	z-index:-3;}
+	
+.albumlinkdiv{
+	height: auto;
+}

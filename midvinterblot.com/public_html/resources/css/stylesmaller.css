@@ -1,0 +1,6 @@
+#secondary {
+ position: static;
+ min-width: 150px;
+ float: none;
+ margin: auto;
+}

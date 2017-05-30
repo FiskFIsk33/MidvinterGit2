@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Macondo);
+
+/*main page*/
+
+
+body{
+	font-family: 'Macondo';
+	color:#fff;}
+
+.storeitems{
+	text-align:middle;}
+.storeitem{
+	text-align:middle;
+	display: inline-block;}
+.price{
+	font-weight: bold;
+	}
+	
+	
+.hidden{
+	display:none;}
+	
+.mdiv{
+	padding: 120px;
+}
+.mtext{
+	font-family: 'IM Fell Great Primer', serif;
+	font-size: 300%;
+	color: white;
+	display: inline;
+}
+h1{
+	display:none;}
+	
+.navbar{
+	display: none;
+}
+
+
+
+
+
+
+
+
+#inline { display: none; width: 600px; background-color:#0a0a0a;}
+
+#inlineorigtshirt { display: none; width: 700px; background-color:#0a0a0a;}
+#inlineorigpatch { display: none; width: 548px; background-color:#0a0a0a;}

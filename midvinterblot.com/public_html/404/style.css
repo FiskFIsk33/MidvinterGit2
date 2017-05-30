@@ -1,0 +1,51 @@
+/*404 page*/
+a { text-decoration:none }
+.varelse1{
+	width:127px;
+	height:127px;
+	position:absolute;
+	top:20%;
+	left:15%;
+	background-image:url('http://i.imgur.com/fr8KMCo.png');
+	background-repeat:no-repeat;
+	z-index:-1;}
+	
+.varelse2{
+	width:52px;
+	height:105px;
+	position:absolute;
+	top:30%;
+	left:40%;
+	background-image:url('http://i.imgur.com/o55Diod.png');
+	background-repeat:no-repeat;
+	z-index:-1;}
+	
+.varelse3{
+	width:145px;
+	height:141px;
+	position:absolute;
+	bottom:55px;
+	left:30%;
+	background-image:url('http://i.imgur.com/MNOYNJR.png');
+	background-repeat:no-repeat;
+	z-index:-1;}
+	
+.varelse4{
+	width:355px;
+	height:190px;
+	position:absolute;
+	bottom:150px;
+	right:10%;
+	background-image:url('http://i.imgur.com/6mLolGZ.png');
+	background-repeat:no-repeat;
+	z-index:0;}
+
+.fourOfour{
+	position:relative;
+	margin:auto;
+	width:381px;
+	height:390px;
+	top:100px;
+	background-image:url('http://i.imgur.com/T30jF5x.png');
+	background-repeat:no-repeat;
+	z-index:1;}

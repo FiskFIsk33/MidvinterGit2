@@ -1,0 +1,160 @@
+body{
+	background-color:#0a0a0a;}
+
+a{
+	outline: none;}
+	
+.master{
+	position:absolute;
+	top:0%;
+	left:0%;
+	min-width: 600px;
+	width:100%;
+	padding-bottom: 25px}
+
+.backgroundTL{
+	width:190px;
+	height:166px;
+	position:absolute;
+	top:0%;
+	left:0%;
+	background-image:url('../images/bakgrund/stenen_01.png');
+	background-repeat:no-repeat;
+	z-index:-2;}
+	
+.backgroundTR{
+	width:268px;
+	height:144px;
+	position:absolute;
+	top:0%;
+	right:0%;
+	background-image:url('../images/bakgrund/stenen_09.png');
+	background-repeat:no-repeat;
+	z-index:-2;}
+	
+.backgroundTM1{
+	width:111px;
+	height:118px;
+	position:absolute;
+	top:0%;
+	right:50%;
+	background-image:url('../images/bakgrund/stenen_05.png');
+	background-repeat:no-repeat;
+	z-index:-2;}
+	
+.backgroundTM2{
+	width:100px;
+	height:118px;
+	position:absolute;
+	top:0%;
+	left:50%;
+	background-image:url('../images/bakgrund/stenen_05.png');
+	background-repeat:no-repeat;
+	background-position:right top;
+	z-index:-2;}
+
+.backgroundTML{
+	width:50%;
+	height:52px;
+	position:absolute;
+	top:0%;
+	left:-20px;
+	background-image:url('../images/bakgrund/stenen_03.png');
+	background-position:right top;
+	z-index:-3;}
+	
+.backgroundTMR{
+	width:50%;
+	height:67px;
+	position:absolute;
+	top:0%;
+	right:0%;
+	background-image:url('../images/bakgrund/stenen_07.png');
+	background-position:12px 0px;
+	z-index:-3;}
+
+.backgroundML{
+	width:89px;
+	height:100%;
+	position:absolute;
+	top:0%;
+	left:0%;
+	background-image:url('../images/bakgrund/stenen_15.png');
+	background-position:left -13px;
+	z-index:-3;}
+	
+.backgroundBL{
+	width:211px;
+	height:196px;
+	position:absolute;
+	bottom:0%;
+	left:0%;
+	background-image:url('../images/bakgrund/stenen_18.png');
+	background-repeat:no-repeat;
+	z-index:-2;}
+	
+.backgroundBR{
+	width:268px;
+	height:196px;
+	position:absolute;
+	bottom:0%;
+	right:0%;
+	background-image:url('../images/bakgrund/stenen_20.png');
+	background-repeat:no-repeat;
+	z-index:-2;}
+	
+.backgroundB{
+	width:100%;
+	height:49px;
+	position:absolute;
+	bottom:0%;
+	left:0%;
+	background-image:url('../images/bakgrund/stenen_23.png');
+	z-index:-3;}
+
+.backgroundRun{
+	width:211px;
+	height:61px;
+	position:absolute;
+	bottom:0%;
+	left:35%;
+	background-image:url('../images/bakgrund/stenen_21.png');
+	background-repeat:no-repeat;
+	z-index:-1;}
+
+.backgroundGub1{
+	width:135px;
+	height:148px;
+	position:absolute;
+	bottom:-78px;
+	left:70%;
+	background-image:url('../images/gubbe1-3.png');
+	background-repeat:no-repeat;
+	z-index:1;}
+.backgroundGub1link{
+	cursor:default;}
+	
+.contentContainer{
+	padding-top:120px;
+	padding-bottom:60px;
+	padding-left:100px;
+	padding-right:100px;
+	z-index:0;
+	text-align:center;
+	}
+
+/*--navbar--*/
+
+.navbar{
+	max-width: 550px;
+	width: 90%;
+	z-index: 5;
+	margin-left: auto ;
+	margin-right: auto ;
+
+	
+}
+
+.navbar object{
+	width: 100%;
+}

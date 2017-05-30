@@ -1,0 +1,14 @@
+body{
+	background-color:#0a0a0a;}
+
+a:link, a:visited {color: #781351}
+
+.backgroundTL, .backgroundTR, .backgroundTM1, .backgroundTM2, .backgroundTML, .backgroundTMR, .backgroundML, .backgroundBL, .backgroundBR, .backgroundB, .backgroundRun, .backgroundGub1, .backgroundGub1link{
+	display:none;}
+.contentContainer{
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	width: 100;
+	margin:0;}

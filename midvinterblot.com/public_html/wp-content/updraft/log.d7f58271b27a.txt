@@ -1,0 +1,110 @@
+0000.011 () Opened log file at time: Tue, 30 May 2017 16:12:02 +0000 on http://midvinterblot.com
+0000.011 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.9 WP: 4.7.5 PHP: 7.0.18-0ubuntu0.16.04.1 (Linux TehFiskVWebsrv 4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017 x86_64) MySQL: 5.7.18 Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.9M | 2M) multisite: N mcrypt: N LANG: C ZipArchive::addFile: N
+0000.011 () Free space on disk containing Updraft's temporary directory: 73790.3 Mb
+0000.011 () Restore job started. Entities to restore: plugins, themes, uploads, others, db
+0000.822 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.822 () Entity: db
+0000.822 () restore_backup(backup_file=backup_2017-03-24-0812_Midvinterblot_ad9a6dcaf0e3-db.gz, type=db, info=a:0:{}, last_one=)
+0000.826 () Unpacking backup...
+0000.866 () Database successfully unpacked
+0000.866 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.866 () Using direct MySQL access; value of use_mysqli is: 1
+0000.871 () Tried to raise max_allowed_packet from 16 Mb to 32 Mb, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.871 () Max packet size: 16 Mb
+0000.872 () Entering maintenance mode
+0000.872 () Enabling Maintenance mode&#8230;
+0000.874 () Backup created by: 1.12.13
+0000.874 () <strong>Backup of:</strong> http://midvinterblot.com
+0000.875 () Content URL: http://midvinterblot.com/wp-content
+0000.875 () Old table prefix: wp3_
+0000.875 () Site information: multisite=0
+0000.886 () New table prefix: wp_
+0000.910 () Restoring table (InnoDB): wp3_options - will restore as: wp_options
+0001.186 () Restoring prior UD configuration (table: wp_options; keys: 2)
+0001.201 () Table prefix has changed: changing options table field(s) accordingly (options)
+0001.205 () Options table fields changed OK
+0001.207 () Restoring table (InnoDB): wp3_users - will restore as: wp_users
+0001.255 () Restoring table (InnoDB): wp3_usermeta - will restore as: wp_usermeta
+0001.305 () Table prefix has changed: changing usermeta table field(s) accordingly
+0001.310 () Usermeta table fields changed OK
+0001.310 () Restoring table (InnoDB): wp3_commentmeta - will restore as: wp_commentmeta
+0001.353 () Restoring table (InnoDB): wp3_comments - will restore as: wp_comments
+0001.413 () Restoring table (InnoDB): wp3_links - will restore as: wp_links
+0001.450 () Restoring table (InnoDB): wp3_postmeta - will restore as: wp_postmeta
+0001.528 () Restoring table (InnoDB): wp3_posts - will restore as: wp_posts
+0001.974 () Restoring table (InnoDB): wp3_term_relationships - will restore as: wp_term_relationships
+0002.014 () Restoring table (InnoDB): wp3_term_taxonomy - will restore as: wp_term_taxonomy
+0002.061 () Restoring table (InnoDB): wp3_termmeta - will restore as: wp_termmeta
+0002.108 () Restoring table (InnoDB): wp3_terms - will restore as: wp_terms
+0002.143 () Leaving maintenance mode
+0002.144 () Disabling Maintenance mode&#8230;
+0002.145 () Finished: lines processed: 44 in 1.27 seconds
+0002.145 () Cleaning up rubbish...
+0002.149 () Entity: plugins
+0002.149 () restore_backup(backup_file=backup_2017-03-24-0812_Midvinterblot_ad9a6dcaf0e3-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:57:"/var/www/midvinterblot.com/public_html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0002.150 () Unpacking backup... (backup_2017-03-24-0812_Midvinterblot_ad9a6dcaf0e3-plugins.zip, 6.3 Mb)
+0005.093 () Moving old data: filesystem method / updraft_dir is potentially possible
+0005.097 () Moving old data: can potentially use wp_filesystem method / -old
+0005.097 () Moving old data out of the way...
+0005.454 () Top-level entities being moved: simple-share-buttons-adder, akismet, dropbox-backup, index.php, hello.php, updraftplus, fancybox-for-wordpress
+0005.454 () Error message: Could not move the files into place. Check your file permissions.
+0005.454 () Error data (move_failed): /var/www/midvinterblot.com/public_html/wp-content/plugins/simple-share-buttons-adder -> /var/www/midvinterblot.com/public_html/wp-content/updraft/plugins-old/simple-share-buttons-adder
+0005.454 () plugins: /var/www/midvinterblot.com/public_html/wp-content/plugins: deleting contents (as attempts to copy failed)
+0007.421 () Moving unpacked backup into place...
+0008.879 () Top-level entities being moved: akismet, fancybox-for-wordpress, hello.php, index.php, simple-share-buttons-adder, updraftplus
+0008.888 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0008.897 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0008.905 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0008.915 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0008.926 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0008.936 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0008.941 () Cleaning up rubbish...
+0008.951 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/plugins (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0008.951 () Entity: themes
+0008.951 () restore_backup(backup_file=backup_2017-03-24-0812_Midvinterblot_ad9a6dcaf0e3-themes.zip, type=themes, info=a:2:{s:4:"path";s:56:"/var/www/midvinterblot.com/public_html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0008.953 () Unpacking backup... (backup_2017-03-24-0812_Midvinterblot_ad9a6dcaf0e3-themes.zip, 3.2 Mb)
+0009.617 () Moving old data: filesystem method / updraft_dir is potentially possible
+0009.626 () Moving old data: can potentially use wp_filesystem method / -old
+0009.626 () Moving old data out of the way...
+0009.843 () Top-level entities being moved: twentysixteen, twentyfifteen, twentyseventeen, Midvinterblot, index.php
+0009.843 () Error message: Could not move the files into place. Check your file permissions.
+0009.843 () Error data (move_failed): /var/www/midvinterblot.com/public_html/wp-content/themes/twentysixteen -> /var/www/midvinterblot.com/public_html/wp-content/updraft/themes-old/twentysixteen
+0009.843 () themes: /var/www/midvinterblot.com/public_html/wp-content/themes: deleting contents (as attempts to copy failed)
+0010.336 () Moving unpacked backup into place...
+0010.636 () Top-level entities being moved: index.php, Midvinterblot, twentyfifteen, twentyfourteen, twentysixteen
+0010.645 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/themes/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0010.654 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/themes/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0010.664 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/themes/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0010.674 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/themes/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0010.686 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/themes/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0010.691 () Cleaning up rubbish...
+0010.695 () Entity: uploads
+0010.695 () restore_backup(backup_file=backup_2017-03-24-0812_Midvinterblot_ad9a6dcaf0e3-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:57:"/var/www/midvinterblot.com/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0010.696 () Unpacking backup... (backup_2017-03-24-0812_Midvinterblot_ad9a6dcaf0e3-uploads.zip, 41.7 Mb)
+0014.206 () Moving old data: filesystem method / updraft_dir is potentially possible
+0014.213 () Moving old data: can potentially use wp_filesystem method / -old
+0014.213 () Moving old data out of the way...
+0014.233 () Error message: Could not move the files into place. Check your file permissions.
+0014.234 () Error data (move_failed): /var/www/midvinterblot.com/public_html/wp-content/uploads/2015 -> /var/www/midvinterblot.com/public_html/wp-content/updraft/uploads-old/2015
+0014.234 () uploads: /var/www/midvinterblot.com/public_html/wp-content/uploads: deleting contents (as attempts to copy failed)
+0014.278 () Moving unpacked backup into place...
+0014.565 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/uploads/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.575 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/uploads/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.586 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/uploads/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.592 () Cleaning up rubbish...
+0014.603 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/uploads (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.603 () Entity: others
+0014.603 () restore_backup(backup_file=backup_2017-03-24-0812_Midvinterblot_ad9a6dcaf0e3-others.zip, type=others, info=a:2:{s:4:"path";s:49:"/var/www/midvinterblot.com/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0014.607 () Unpacking backup... (backup_2017-03-24-0812_Midvinterblot_ad9a6dcaf0e3-others.zip, 0 Mb)
+0014.673 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.687 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.702 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.718 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.732 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.749 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.764 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.782 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.783 () Cleaning up rubbish...
+0014.800 () PHP event: code E_NOTICE: Undefined index: /var/www/midvinterblot.com/public_html/wp-content (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0014.983 () Restore successful!
+0014.983 () Restore successful
