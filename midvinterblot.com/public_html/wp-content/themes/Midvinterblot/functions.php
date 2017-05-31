@@ -765,3 +765,5 @@ add_action('draft_to_publish', 'auto_featured_image');
 add_action('new_to_publish', 'auto_featured_image');
 add_action('pending_to_publish', 'auto_featured_image');
 add_action('future_to_publish', 'auto_featured_image');
+
+remove_action( ‘wp_head’, ‘rest_output_link_wp_head’ );
