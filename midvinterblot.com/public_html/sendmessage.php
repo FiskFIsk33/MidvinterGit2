@@ -24,20 +24,19 @@ $mail = new PHPMailer;
 //$mail->SMTPDebug = 3;                               
 
 $mail->isSMTP();                                      
-$mail->CharSet = 'UTF-8';
-$mail->Host = 'ssl://smtp.gmail.com';  				  
+$mail->CharSet = 'UTF-8';  				  
 
 $mail->SMTPAuth = true;                          
 $mail->SMTPSecure = 'ssl';                            
-$mail->Host       = "smtp.gmail.com";      
+$mail->Host       = "smtp.zoho.com";      
 $mail->Port = 465;                                    
-$mail->Username = 'midvinterblotband@gmail.com';                 
-$mail->Password = 'Delirium.,gil';                         
+$mail->Username = 'noreply@midvinterblot.com';                 
+$mail->Password = 'Orly??0mot';                         
 
 
 
 $mail->AddReplyTo($usermail);
-$mail->From = 'mail@midvinterblot.com';
+$mail->From = 'noreply@midvinterblot.com';
 $mail->FromName = 'Midvinterblot Contactbox';
 
 //$mail->addAddress('fiskfisk33@live.com');     // Add a recipient

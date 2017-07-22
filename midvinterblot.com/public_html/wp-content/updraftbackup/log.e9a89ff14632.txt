@@ -1,0 +1,339 @@
+0000.000 (0) Opened log file at time: Sun, 04 Jun 2017 08:59:38 +0000 on https://midvinterblot.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.7.5 PHP: 7.0.18-0ubuntu0.16.04.1 (apache2handler, Linux TehFiskVWebsrv 4.4.0-78-generic #99-Ubuntu SMP Thu Apr 27 15:29:09 UTC 2017 x86_64) MySQL: 5.7.18 WPLANG: en_US Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.2M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: N LANG: C ZipArchive::addFile: N
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 73614.4 MB
+0000.011 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB: 1 (schedule: weekly)
+0000.019 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.046 (0) Set semaphore last lock (fd) time to 2017-06-04 08:59:39
+0000.049 (0) Semaphore lock (fd) complete
+0000.058 (0) Backup run: resumption=0, nonce=e9a89ff14632, begun at=1496566778 (1s ago), job type=backup
+0000.062 (0) Scheduling a resumption (1) after 300 seconds (1496567079) in case this run gets aborted
+0000.097 (0) Checking if we have a zip executable available
+0000.100 (0) Testing: /usr/bin/zip
+0000.107 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.110 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.115 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.119 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.122 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.129 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.132 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.137 (0) Working binary zip found: /usr/bin/zip
+0000.143 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.145 (0) Creation of backups of directories: beginning
+0000.153 (0) Beginning creation of dump of plugins (split every: 500 MB)
+0000.355 (0) Total entities for the zip file: 313 directories, 2203 files (0 skipped as non-modified), 31 MB
+0000.364 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.368 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.374 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.380 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.384 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.387 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 2203 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.015 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: size is now: 1.80 MB
+0001.021 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 600 files added (on-disk size: 1841.1 KB)
+0001.025 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 700 files added (on-disk size: 1841.1 KB)
+0001.029 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 800 files added (on-disk size: 1841.1 KB)
+0001.034 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 900 files added (on-disk size: 1841.1 KB)
+0001.038 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 1000 files added (on-disk size: 1841.1 KB)
+0001.042 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 2203 files batched, 501 (1002) added so far); re-opening (prior size: 1841.1 KB)
+0001.677 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: size is now: 3.20 MB
+0001.692 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 1100 files added (on-disk size: 3278.1 KB)
+0001.697 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 1200 files added (on-disk size: 3278.1 KB)
+0001.703 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 1300 files added (on-disk size: 3278.1 KB)
+0001.709 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 1400 files added (on-disk size: 3278.1 KB)
+0001.714 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 1500 files added (on-disk size: 3278.1 KB)
+0001.718 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.3 MB, 2203 files batched, 501 (1503) added so far); re-opening (prior size: 3278.1 KB)
+0003.348 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: size is now: 8.10 MB
+0003.375 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 1600 files added (on-disk size: 8322.7 KB)
+0003.379 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 1700 files added (on-disk size: 8322.7 KB)
+0003.384 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 1800 files added (on-disk size: 8322.7 KB)
+0003.388 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 1900 files added (on-disk size: 8322.7 KB)
+0003.393 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 2000 files added (on-disk size: 8322.7 KB)
+0003.396 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 2203 files batched, 501 (2004) added so far); re-opening (prior size: 8322.7 KB)
+0004.044 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 2100 files added (on-disk size: 9015 KB)
+0004.048 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip.tmp: 2200 files added (on-disk size: 9015 KB)
+0004.759 (0) Created plugins zip (0) - 10184.2 KB in 4.6 s (2212.8 KB/s) (sha1: 7c18202cc9207baf830a85fe6583dd88ec00219f, sha256: 4a564c4f81929c49e66fead8ea24eebed23224de8b4683e163cb31c0766b77be)
+0004.765 (0) Beginning creation of dump of themes (split every: 500 MB)
+0004.840 (0) Total entities for the zip file: 43 directories, 368 files (0 skipped as non-modified), 4.4 MB
+0004.845 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.849 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.853 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.274 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-themes.zip.tmp: size is now: 3.40 MB
+0005.349 (0) Created themes zip (0) - 3453.9 KB in 0.6 s (5937.3 KB/s) (sha1: 0032394b98b3bfd9a5d62dd324dd2a4d1e98831d, sha256: 8525c22ff3ad1c1b2d0d572467dc3026a190e4e53a5ae945e40e0b82cb36bda7)
+0005.356 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0005.359 (0) Looking for candidates to back up in: /var/www/midvinterblot.com/public_html/wp-content/uploads
+0005.362 (0) finding files: 2017: adding to list (1)
+0005.363 (0) finding files: 2015: adding to list (2)
+0005.366 (0) finding files: woocommerce_uploads: adding to list (3)
+0005.368 (0) finding files: 2016: adding to list (4)
+0005.371 (0) finding files: wc-logs: adding to list (5)
+0005.373 (0) finding files: GeoIP.dat: adding to list (6)
+0005.375 (0) Beginning creation of dump of uploads (split every: 500 MB)
+0005.411 (0) Total entities for the zip file: 27 directories, 231 files (0 skipped as non-modified), 48.7 MB
+0005.416 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.7 MB, 231 files batched, 80 (80) added so far); re-opening (prior size: 0 KB)
+0006.002 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-uploads.zip.tmp: size is now: 26.70 MB
+0006.023 (0) A useful amount of data was added after this amount of zip processing: 1 s (normalised: 0.9 s, rate: 27575.6 KB/s)
+0006.027 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.99162793159485, normalised_time=0.92835767717759, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=169424354)
+0006.033 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-uploads.zip.tmp: 100 files added (on-disk size: 27365.7 KB)
+0006.036 (0) Zip: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-uploads.zip.tmp: 200 files added (on-disk size: 27365.7 KB)
+0007.610 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-uploads.zip.tmp: size is now: 48.30 MB
+0008.364 (0) Created uploads zip (0) - 49476.1 KB in 3 s (16571.6 KB/s) (sha1: f592ee1583b9f34ae6aca3ffd5c66a76a6c16086, sha256: 453e77c81c9feed90df8bfa94c22db78dcf882b41f6cbea1edcd23c411b2faa9)
+0008.369 (0) Beginning backup of other directories found in the content directory (index: 0)
+0008.370 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql
+0008.372 (0) Looking for candidates to back up in: /var/www/midvinterblot.com/public_html/wp-content
+0008.373 (0) finding files: plugins-old: adding to list (1)
+0008.375 (0) finding files: plugins: skipping: this is the plugins directory
+0008.377 (0) finding files: style.css-old: adding to list (2)
+0008.378 (0) finding files: updraftbackup: skipping: this is the updraft directory
+0008.380 (0) finding files: plugins-old-old: adding to list (3)
+0008.382 (0) finding files: uploads-old-old: adding to list (4)
+0008.383 (0) finding files: uploads-old: adding to list (5)
+0008.385 (0) finding files: index.php-old: adding to list (6)
+0008.386 (0) finding files: upgrade: skipping: excluded by options
+0008.388 (0) finding files: maintenance.php: adding to list (7)
+0008.389 (0) finding files: uploads: skipping: this is the uploads directory
+0008.391 (0) finding files: style.css: adding to list (8)
+0008.393 (0) finding files: maintenance.php-old: adding to list (9)
+0008.394 (0) finding files: themes: skipping: this is the themes directory
+0008.396 (0) finding files: themes-old-old: adding to list (10)
+0008.397 (0) finding files: upgrade.tmp: adding to list (11)
+0008.399 (0) finding files: index.php: adding to list (12)
+0008.401 (0) finding files: themes-old: adding to list (13)
+0008.402 (0) finding files: updraft: skipping: excluded by options
+0008.404 (0) finding files: fdfd: adding to list (14)
+0008.486 (0) Total entities for the zip file: 7 directories, 7 files (0 skipped as non-modified), 0 MB
+0008.537 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-others.zip.tmp: size is now: 0.00 MB
+0008.550 (0) Created others zip (0) - 3.5 KB in 0.1 s (24.6 KB/s) (sha1: aea0bb7d8fb87bb9101f71954b4ffaca3dece83a, sha256: 31891e9dba3c2189665af54a27a8a7cb9e47f2874812f35908ff2295573de93f)
+0008.561 (0) Saving backup status to database (elements: 8)
+0008.568 (0) Beginning creation of database dump (WordPress DB)
+0008.574 (0) Testing: /usr/bin/mysqldump
+0008.904 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1188 bytes total)
+0008.908 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0008.988 (0) Table wp_options: Total expected rows (approximate): 760
+0009.030 (0) Table wp_options: Total rows added: 766 in 0.04 seconds
+0009.033 (0) Table wp_options: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_options.table.gz - 174.3 KB)
+0009.043 (0) Table wp_users: Total expected rows (approximate): 8
+0009.047 (0) Table wp_users: Total rows added: 7 in 0.00 seconds
+0009.050 (0) Table wp_users: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_users.table.gz - 1 KB)
+0009.059 (0) Table wp_usermeta: Total expected rows (approximate): 127
+0009.064 (0) Table wp_usermeta: Total rows added: 127 in 0.00 seconds
+0009.067 (0) Table wp_usermeta: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_usermeta.table.gz - 3.1 KB)
+0009.075 (0) Table wp_commentmeta: Total expected rows (approximate): 4
+0009.079 (0) Table wp_commentmeta: Total rows added: 4 in 0.00 seconds
+0009.082 (0) Table wp_commentmeta: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_commentmeta.table.gz - 0.5 KB)
+0009.090 (0) Table wp_comments: Total expected rows (approximate): 4
+0009.094 (0) Table wp_comments: Total rows added: 4 in 0.00 seconds
+0009.095 (0) Table wp_comments: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_comments.table.gz - 1 KB)
+0009.119 (0) Table wp_links: Total expected rows (approximate): 0
+0009.122 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0009.125 (0) Table wp_links: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_links.table.gz - 0.4 KB)
+0009.132 (0) Table wp_postmeta: Total expected rows (approximate): 958
+0009.144 (0) Table wp_postmeta: Total rows added: 958 in 0.01 seconds
+0009.147 (0) Table wp_postmeta: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_postmeta.table.gz - 12.1 KB)
+0009.156 (0) Table wp_posts: Total expected rows (approximate): 355
+0009.180 (0) Table wp_posts: Total rows added: 324 in 0.02 seconds
+0009.184 (0) Table wp_posts: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_posts.table.gz - 40.5 KB)
+0009.194 (0) Table wp_term_relationships: Total expected rows (approximate): 37
+0009.197 (0) Table wp_term_relationships: Total rows added: 38 in 0.00 seconds
+0009.199 (0) Table wp_term_relationships: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0009.207 (0) Table wp_term_taxonomy: Total expected rows (approximate): 18
+0009.211 (0) Table wp_term_taxonomy: Total rows added: 18 in 0.00 seconds
+0009.214 (0) Table wp_term_taxonomy: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0009.222 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0009.226 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0009.227 (0) Table wp_termmeta: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_termmeta.table.gz - 0.4 KB)
+0009.236 (0) Table wp_terms: Total expected rows (approximate): 18
+0009.239 (0) Table wp_terms: Total rows added: 18 in 0.00 seconds
+0009.242 (0) Table wp_terms: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_terms.table.gz - 0.6 KB)
+0009.251 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 43
+0009.255 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 43 in 0.00 seconds
+0009.258 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.8 KB)
+0009.284 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0009.288 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0009.291 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0009.304 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0009.308 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0009.311 (0) Table wp_woocommerce_api_keys: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0009.343 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0009.347 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0009.350 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0009.359 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0009.363 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0009.366 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0009.375 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0009.378 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0009.380 (0) Table wp_woocommerce_log: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0009.391 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 5
+0009.394 (0) Table wp_woocommerce_order_items: Total rows added: 5 in 0.00 seconds
+0009.397 (0) Table wp_woocommerce_order_items: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_order_items.table.gz - 0.4 KB)
+0009.405 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0009.408 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0009.412 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0009.422 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 5
+0009.426 (0) Table wp_woocommerce_sessions: Total rows added: 5 in 0.00 seconds
+0009.428 (0) Table wp_woocommerce_sessions: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_sessions.table.gz - 1.7 KB)
+0009.436 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0009.440 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0009.443 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0009.458 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0009.463 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0009.466 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0009.474 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0009.478 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0009.479 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0009.491 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0009.497 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0009.500 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0009.510 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0009.514 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0009.517 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0009.526 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_options.table.gz (1/26): adding to final database dump
+0009.561 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_users.table.gz (2/26): adding to final database dump
+0009.565 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_usermeta.table.gz (3/26): adding to final database dump
+0009.568 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_commentmeta.table.gz (4/26): adding to final database dump
+0009.571 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_comments.table.gz (5/26): adding to final database dump
+0009.574 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_links.table.gz (6/26): adding to final database dump
+0009.576 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_postmeta.table.gz (7/26): adding to final database dump
+0009.583 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_posts.table.gz (8/26): adding to final database dump
+0009.600 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_term_relationships.table.gz (9/26): adding to final database dump
+0009.603 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_term_taxonomy.table.gz (10/26): adding to final database dump
+0009.606 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_termmeta.table.gz (11/26): adding to final database dump
+0009.609 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_terms.table.gz (12/26): adding to final database dump
+0009.611 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_order_itemmeta.table.gz (13/26): adding to final database dump
+0009.614 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/26): adding to final database dump
+0009.615 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_api_keys.table.gz (15/26): adding to final database dump
+0009.618 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_attribute_taxonomies.table.gz (16/26): adding to final database dump
+0009.622 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (17/26): adding to final database dump
+0009.625 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_log.table.gz (18/26): adding to final database dump
+0009.627 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_order_items.table.gz (19/26): adding to final database dump
+0009.630 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_payment_tokens.table.gz (20/26): adding to final database dump
+0009.633 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_sessions.table.gz (21/26): adding to final database dump
+0009.635 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_shipping_zone_locations.table.gz (22/26): adding to final database dump
+0009.639 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_shipping_zone_methods.table.gz (23/26): adding to final database dump
+0009.641 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_shipping_zones.table.gz (24/26): adding to final database dump
+0009.643 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_tax_rate_locations.table.gz (25/26): adding to final database dump
+0009.647 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db-table-wp_woocommerce_tax_rates.table.gz (26/26): adding to final database dump
+0009.650 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db.gz: finished writing out complete database file (208 KB)
+0009.666 (0) Total database tables backed up: 26 (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db.gz, size: 241626, sha256)
+0009.680 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0009.683 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0009.686 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0009.689 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-others.zip: others: This file has not yet been successfully uploaded: will queue
+0009.690 (0) backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.694 (0) Saving backup history. Total backup size: 61.9 MB
+0009.700 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0009.710 (0) Cloud backup selection (1/1): dropbox (last)
+0009.712 (0) Beginning dispatch of backup to remote (dropbox)
+0009.715 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0009.726 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0012.237 (0) Dropbox quota usage: used=8015.2 MB, total=8320 MB, available=304.8 MB
+0012.240 (0) Dropbox: Attempt to upload: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip to: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip
+0014.613 (0) Dropbox chunked upload: 10.1 % uploaded (AAAAAAAAC_kUD1s4Leo6Aw, 1048576, 3072 KB)
+0019.371 (0) Dropbox chunked upload: 40.2 % uploaded (AAAAAAAAC_kUD1s4Leo6Aw, 4194304, 5632 KB)
+0025.874 (0) Dropbox chunked upload: 95.5 % uploaded (AAAAAAAAC_kUD1s4Leo6Aw, 9961472, 7680 KB)
+0027.223 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAC_kUD1s4Leo6Aw, 10428650, 7680 KB)
+0028.735 (0) Recording as successfully uploaded: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip (d440374cb92a3bcbe7bf087e173c2e7c)
+0028.748 (0) Deleting local file: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip: OK
+0028.751 (0) Dropbox: File upload success (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-plugins.zip): 10184 KB in 16s (616 KB/s)
+0029.166 (0) Dropbox quota usage: used=8025.2 MB, total=8320 MB, available=294.8 MB
+0029.170 (0) Dropbox: Attempt to upload: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-themes.zip to: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-themes.zip
+0032.912 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAC_rdvnmTQyO1xQ, 3536749, 7680 KB)
+0034.783 (0) Recording as successfully uploaded: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-themes.zip (ba76c4459b1e3df9e3fe68efa54b808d)
+0034.792 (0) Deleting local file: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-themes.zip: OK
+0034.795 (0) Dropbox: File upload success (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-themes.zip): 3453 KB in 5s (614 KB/s)
+0035.211 (0) Dropbox quota usage: used=8028.5 MB, total=8320 MB, available=291.5 MB
+0035.216 (0) Dropbox: Attempt to upload: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-uploads.zip to: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-uploads.zip
+0043.315 (0) Dropbox chunked upload: 15.5 % uploaded (AAAAAAAAC_sI8K8Elc13nQ, 7864320, 8192 KB)
+0052.810 (0) Dropbox chunked upload: 32.1 % uploaded (AAAAAAAAC_sI8K8Elc13nQ, 16252928, 7680 KB)
+0064.280 (0) Dropbox chunked upload: 47.6 % uploaded (AAAAAAAAC_sI8K8Elc13nQ, 24117248, 7680 KB)
+0075.281 (0) Dropbox chunked upload: 63.1 % uploaded (AAAAAAAAC_sI8K8Elc13nQ, 31981568, 7680 KB)
+0085.845 (0) Dropbox chunked upload: 78.6 % uploaded (AAAAAAAAC_sI8K8Elc13nQ, 39845888, 7680 KB)
+0095.191 (0) Dropbox chunked upload: 94.2 % uploaded (AAAAAAAAC_sI8K8Elc13nQ, 47710208, 7168 KB)
+0099.175 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAC_sI8K8Elc13nQ, 50663534, 7168 KB)
+0101.194 (0) Recording as successfully uploaded: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-uploads.zip (4eaf7c0d45a38f1c0a0ecbfbc573909a)
+0101.209 (0) Deleting local file: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-uploads.zip: OK
+0101.215 (0) Dropbox: File upload success (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-uploads.zip): 49476 KB in 65s (749 KB/s)
+0102.013 (0) Dropbox quota usage: used=8076.9 MB, total=8320 MB, available=243.1 MB
+0102.016 (0) Dropbox: Attempt to upload: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-others.zip to: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-others.zip
+0102.634 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAC_zI_Nv5Hthlug, 3623, 7168 KB)
+0104.513 (0) Recording as successfully uploaded: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-others.zip (602e213e79fdcdbfe7f44c9617ea705d)
+0104.525 (0) Deleting local file: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-others.zip: OK
+0104.528 (0) Dropbox: File upload success (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-others.zip): 3 KB in 2s (1 KB/s)
+0104.938 (0) Dropbox quota usage: used=8076.9 MB, total=8320 MB, available=243.1 MB
+0104.941 (0) Dropbox: Attempt to upload: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db.gz to: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db.gz
+0106.203 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAC_2OPygzYkJnXA, 241626, 7168 KB)
+0107.495 (0) Recording as successfully uploaded: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db.gz (a93e794d2cdde0ad9f58f0045196aac9)
+0107.503 (0) Deleting local file: backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db.gz: OK
+0107.506 (0) Dropbox: File upload success (backup_2017-06-04-1059_Midvinterblot_e9a89ff14632-db.gz): 235 KB in 2s (91 KB/s)
+0107.511 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0107.515 (0) Number of backup sets in history: 11; groups (db): 1
+0107.518 (0) Examining (for databases) backup set with group_id=0, nonce=e9a89ff14632, datestamp=1496566778 (Jun 04 2017 08:59:38)
+0107.521 (0) This backup set is the backup set just made, so will not be deleted.
+0107.524 (0) Examining (for databases) backup set with group_id=0, nonce=9e683b6f06e2, datestamp=1496383624 (Jun 02 2017 06:07:04)
+0107.526 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.529 (0) Examining (for databases) backup set with group_id=0, nonce=e100d2b3c592, datestamp=1496252658 (May 31 2017 17:44:18)
+0107.532 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.534 (0) Examining (for databases) backup set with group_id=0, nonce=ad9a6dcaf0e3, datestamp=1490335952 (Mar 24 2017 06:12:32)
+0107.537 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.538 (0) Examining (for databases) backup set with group_id=0, nonce=33eeae31198d, datestamp=1489732038 (Mar 17 2017 06:27:18)
+0107.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.542 (0) Examining (for databases) backup set with group_id=0, nonce=730f07be3f3f, datestamp=1489127168 (Mar 10 2017 06:26:08)
+0107.545 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.547 (0) Examining (for databases) backup set with group_id=0, nonce=c13536cc5aab, datestamp=1488522245 (Mar 03 2017 06:24:05)
+0107.549 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.551 (0) Examining (for databases) backup set with group_id=0, nonce=2f93e68a4c81, datestamp=1487916667 (Feb 24 2017 06:11:07)
+0107.554 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.555 (0) Examining (for databases) backup set with group_id=0, nonce=2cf703d9721c, datestamp=1487312052 (Feb 17 2017 06:14:12)
+0107.561 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.562 (0) Examining (for databases) backup set with group_id=0, nonce=996811b41dd0, datestamp=1486707200 (Feb 10 2017 06:13:20)
+0107.565 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.567 (0) Examining (for databases) backup set with group_id=0, nonce=323b98bc9081, datestamp=1486102304 (Feb 03 2017 06:11:44)
+0107.570 (0) 1486102304: db: this set includes a database (backup_2017-02-03-0811_Midvinterblot_323b98bc9081-db.gz); db count is now 10
+0107.573 (0) 1486102304: db: over retain limit (10); will delete this database
+0107.575 (0) Delete file: backup_2017-02-03-0811_Midvinterblot_323b98bc9081-db.gz, service=dropbox
+0107.578 (0) Dropbox: request deletion: backup_2017-02-03-0811_Midvinterblot_323b98bc9081-db.gz
+0108.044 (0) Dropbox error: path_lookup (line: 228, file: /var/www/midvinterblot.com/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0108.051 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0108.054 (0) Number of backup sets in history: 11; groups (files): 1
+0108.055 (0) Examining (for files) backup set with nonce=e9a89ff14632, datestamp=1496566778 (Jun 04 2017 08:59:38)
+0108.059 (0) This backup set is the backup set just made, so will not be deleted.
+0108.062 (0) This backup set is the backup set just made, so will not be deleted.
+0108.062 (0) This backup set is the backup set just made, so will not be deleted.
+0108.062 (0) This backup set is the backup set just made, so will not be deleted.
+0108.062 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.065 (0) Examining (for files) backup set with nonce=9e683b6f06e2, datestamp=1496383624 (Jun 02 2017 06:07:04)
+0108.067 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.069 (0) Examining (for files) backup set with nonce=e100d2b3c592, datestamp=1496252658 (May 31 2017 17:44:18)
+0108.071 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.080 (0) Examining (for files) backup set with nonce=ad9a6dcaf0e3, datestamp=1490335952 (Mar 24 2017 06:12:32)
+0108.084 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.087 (0) Examining (for files) backup set with nonce=33eeae31198d, datestamp=1489732038 (Mar 17 2017 06:27:18)
+0108.090 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.091 (0) Examining (for files) backup set with nonce=730f07be3f3f, datestamp=1489127168 (Mar 10 2017 06:26:08)
+0108.094 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.096 (0) Examining (for files) backup set with nonce=c13536cc5aab, datestamp=1488522245 (Mar 03 2017 06:24:05)
+0108.099 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.102 (0) Examining (for files) backup set with nonce=2f93e68a4c81, datestamp=1487916667 (Feb 24 2017 06:11:07)
+0108.103 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.106 (0) Examining (for files) backup set with nonce=2cf703d9721c, datestamp=1487312052 (Feb 17 2017 06:14:12)
+0108.108 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.110 (0) Examining (for files) backup set with nonce=996811b41dd0, datestamp=1486707200 (Feb 10 2017 06:13:20)
+0108.113 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.115 (0) Examining (for files) backup set with nonce=323b98bc9081, datestamp=1486102304 (Feb 03 2017 06:11:44)
+0108.118 (0) plugins: over retain limit (10); will delete this file entity
+0108.121 (0) themes: over retain limit (10); will delete this file entity
+0108.122 (0) uploads: over retain limit (10); will delete this file entity
+0108.125 (0) others: over retain limit (10); will delete this file entity
+0108.126 (0) Delete file: backup_2017-02-03-0811_Midvinterblot_323b98bc9081-plugins.zip, service=dropbox
+0108.129 (0) Delete file: backup_2017-02-03-0811_Midvinterblot_323b98bc9081-themes.zip, service=dropbox
+0108.130 (0) Delete file: backup_2017-02-03-0811_Midvinterblot_323b98bc9081-uploads.zip, service=dropbox
+0108.134 (0) Delete file: backup_2017-02-03-0811_Midvinterblot_323b98bc9081-others.zip, service=dropbox
+0108.135 (0) Dropbox: request deletion: backup_2017-02-03-0811_Midvinterblot_323b98bc9081-plugins.zip
+0108.596 (0) Dropbox error: path_lookup (line: 228, file: /var/www/midvinterblot.com/public_html/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0108.603 (0) This backup set is now empty; will remove from history
+0108.606 (0) Corresponding log file (log.323b98bc9081.txt) not found - must have already been deleted
+0108.607 (0) Retain: saving new backup history (sets now: 10) and finishing retain operation
+0108.619 (0) Resume backup (e9a89ff14632, 0): finish run
+0108.645 (0) Decremented the semaphore (fd) by 1
+0108.654 (0) Semaphore (fd) unlocked
+0108.658 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0108.666 (0) No email will/can be sent - the user has not configured an email address.
+0108.670 (0) The backup apparently succeeded and is now complete

@@ -47,7 +47,8 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	/*list-style: none;*/
+	list-style-position: inside;
 }
 table {/* tables still need 'cellspacing="0"' in the markup */
 	border-collapse: separate;
@@ -325,7 +326,7 @@ body {
 
 body, input, textarea {
 	color: #373737;
-	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
 	font-weight: 300;
 	line-height: 1.625;
 }
@@ -2760,3 +2761,9 @@ p.comment-form-comment {
 #ie8 section.featured-post .attachment-small-feature {
 	max-width: none;
 }
+
+
+
+
+/* Woocommerce
+----------------------------------------------- */

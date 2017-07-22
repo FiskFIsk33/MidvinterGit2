@@ -43,7 +43,7 @@ $(document).ready(function() {
 			
 			$.ajax({
 				type: 'POST',
-				url: 'sendmessage.php',
+				url: 'https://midvinterblot.com/sendmessage.php',
 				data: $("#contact").serialize(),
 				success: function(data) {
 					if(data == "true") {

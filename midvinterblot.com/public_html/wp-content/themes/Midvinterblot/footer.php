@@ -16,10 +16,35 @@
 	</div>
 </div>
 <!-- Contact Box -->
-<script type="text/javascript" src="js/custom.js"></script>
+<script async type="text/javascript" src="/js/custom.js"></script>
 
-<!-- Linktracking -->
-<script type="text/javascript" src="<?php echo $res_folder; ?>js/tracklink.js"></script>
+<!-- Linktracking 
+<script async type="text/javascript" src="<?php echo $res_folder; ?>/resources/js/tracklink.js"></script>-->
+
+<!-- enable fancybox for sturr -->
+<script type="text/javascript">
+	var imagelinks ='a[href$=".gif"],a[href$=".jpg"],a[href$=".jpeg"],a[href$=".png"],a[href$=".GIF"],a[href$=".JPG"],a[href$=".JPEG"],a[href$=".PNG"]';
+	var alreadytagged ='[data-fancybox],.fancybox,.fancybox-inline';
+	jQuery(imagelinks).not(alreadytagged).addClass("fancybox").attr("data-fancybox", '');
+	$("a.fancybox-inline").fancybox({
+		'hideOnContentClick': true,
+		iframe : {
+			preload : false
+		}
+	});
+	$.fancybox.defaults.hash = false;
+</script>
+
+<!-- defer videos (copies data-src to src) -->
+<script>
+function init() {
+var vidDefer = document.getElementsByTagName('iframe');
+for (var i=0; i<vidDefer.length; i++) {
+if(vidDefer[i].getAttribute('data-src')) {
+vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+</script>
 
 
 <?php wp_footer(); ?>

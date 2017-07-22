@@ -18,7 +18,7 @@ a{
 	position:absolute;
 	top:0%;
 	left:0%;
-	background-image:url('../images/bakgrund/stenen_01.png');
+	background-image:url('https://i.midvinterblot.com/bakgrund/stenen-01.svg');
 	background-repeat:no-repeat;
 	z-index:-2;}
 	
@@ -28,7 +28,7 @@ a{
 	position:absolute;
 	top:0%;
 	right:0%;
-	background-image:url('../images/bakgrund/stenen_09.png');
+	background-image:url('https://i.midvinterblot.com/bakgrund/stenen-05.svg');
 	background-repeat:no-repeat;
 	z-index:-2;}
 	
@@ -38,7 +38,7 @@ a{
 	position:absolute;
 	top:0%;
 	right:50%;
-	background-image:url('../images/bakgrund/stenen_05.png');
+	background-image:url('https://i.midvinterblot.com/bakgrund/stenen-03.svg');
 	background-repeat:no-repeat;
 	z-index:-2;}
 	
@@ -48,7 +48,7 @@ a{
 	position:absolute;
 	top:0%;
 	left:50%;
-	background-image:url('../images/bakgrund/stenen_05.png');
+	background-image:url('https://i.midvinterblot.com/bakgrund/stenen-03.svg');
 	background-repeat:no-repeat;
 	background-position:right top;
 	z-index:-2;}
@@ -58,8 +58,8 @@ a{
 	height:52px;
 	position:absolute;
 	top:0%;
-	left:-20px;
-	background-image:url('../images/bakgrund/stenen_03.png');
+	left:-18px;
+	background-image:url('https://i.midvinterblot.com/bakgrund/stenen-02.svg');
 	background-position:right top;
 	z-index:-3;}
 	
@@ -69,8 +69,9 @@ a{
 	position:absolute;
 	top:0%;
 	right:0%;
-	background-image:url('../images/bakgrund/stenen_07.png');
-	background-position:12px 0px;
+	background-image:url('https://i.midvinterblot.com/bakgrund/stenen-02.svg');
+	background-position:12px 10.2px;
+	background-repeat:repeat-x;
 	z-index:-3;}
 
 .backgroundML{
@@ -79,27 +80,27 @@ a{
 	position:absolute;
 	top:0%;
 	left:0%;
-	background-image:url('../images/bakgrund/stenen_15.png');
+	background-image:url('https://i.midvinterblot.com/bakgrund/stenen-06.svg');
 	background-position:left -13px;
 	z-index:-3;}
 	
 .backgroundBL{
 	width:211px;
-	height:196px;
+	height:111.4px;
 	position:absolute;
 	bottom:0%;
 	left:0%;
-	background-image:url('../images/bakgrund/stenen_18.png');
+	background-image:url('https://i.midvinterblot.com/bakgrund/stenen-07.svg');
 	background-repeat:no-repeat;
 	z-index:-2;}
 	
 .backgroundBR{
 	width:268px;
-	height:196px;
+	height:196.4px;
 	position:absolute;
 	bottom:0%;
 	right:0%;
-	background-image:url('../images/bakgrund/stenen_20.png');
+	background-image:url('https://i.midvinterblot.com/bakgrund/stenen-10.svg');
 	background-repeat:no-repeat;
 	z-index:-2;}
 	
@@ -109,7 +110,7 @@ a{
 	position:absolute;
 	bottom:0%;
 	left:0%;
-	background-image:url('../images/bakgrund/stenen_23.png');
+	background-image:url('https://i.midvinterblot.com/bakgrund/stenen-08.svg');
 	z-index:-3;}
 
 .backgroundRun{
@@ -118,7 +119,7 @@ a{
 	position:absolute;
 	bottom:0%;
 	left:35%;
-	background-image:url('../images/bakgrund/stenen_21.png');
+	background-image:url('https://i.midvinterblot.com/bakgrund/stenen-09.svg');
 	background-repeat:no-repeat;
 	z-index:-1;}
 
@@ -128,7 +129,7 @@ a{
 	position:absolute;
 	bottom:-78px;
 	left:70%;
-	background-image:url('../images/gubbe1-3.png');
+	background-image:url('https://i.midvinterblot.com/gubbe1-3.png');
 	background-repeat:no-repeat;
 	z-index:1;}
 .backgroundGub1link{

@@ -766,4 +766,56 @@ add_action('new_to_publish', 'auto_featured_image');
 add_action('pending_to_publish', 'auto_featured_image');
 add_action('future_to_publish', 'auto_featured_image');
 
-remove_action( ‘wp_head’, ‘rest_output_link_wp_head’ );
+function your_theme_woocommerce_scripts() {
+  wp_enqueue_style( 'custom-woocommerce-style', get_template_directory_uri() . '/css/custom-woocommerce.css' );
+}
+add_action( 'wp_enqueue_scripts', 'your_theme_woocommerce_scripts' );
+
+add_filter( 'woocommerce_currencies', 'add_my_currency' );
+
+function add_my_currency( $currencies ) {
+     $currencies['ABC'] = __( 'Swedish Krona', 'woocommerce' );
+     return $currencies;
+}
+
+add_filter('woocommerce_currency_symbol', 'add_my_currency_symbol', 10, 2);
+
+function add_my_currency_symbol( $currency_symbol, $currency ) {
+     switch( $currency ) {
+          case 'ABC': $currency_symbol = 'SEK'; break;
+     }
+     return $currency_symbol;
+}
+
+//Remove related products
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
+
+// Ensure cart contents update when products are added to the cart via AJAX (place the following in functions.php).
+// Used in conjunction with https://gist.github.com/DanielSantoro/1d0dc206e242239624eb71b2636ab148
+add_filter('add_to_cart_fragments', 'woocommerce_header_add_to_cart_fragment');
+ 
+function woocommerce_header_add_to_cart_fragment( $fragments ) {
+	global $woocommerce;
+	
+	ob_start();
+	
+	?>
+	<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>">view cart (<?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?>)</a>
+	<?php
+	
+	$fragments['a.cart-customlocation'] = ob_get_clean();
+	
+	return $fragments;
+	
+}
+
+//declare woocommerce support
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+
+
+//do not autoload jquery
+wp_deregister_script('jquery'); 
+wp_register_script('jquery', '', '', '', true);

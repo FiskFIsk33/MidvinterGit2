@@ -43,7 +43,7 @@
 		echo esc_html( ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) ) );
 
 	?></title>
-<link rel="icon" type="image/png" href="http://www.midvinterblot.com/resources/images/favicon.png" />
+<link rel="icon" type="image/png" href="https://i.midvinterblot.com/favicon.png" />
 <meta name="Title" content="Midvinterblot"/>
 <meta property="og:title" content="Midvinterblot"/>
 <meta name="description" content="The official webpage of the swedish folk-metal band Midvinterblot" />
@@ -54,8 +54,8 @@
 <link rel="image_src" href="<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ) ?>" />
 <?php else: ?>
 <meta property="og:type" content="website" />
-<meta property="og:image" content="http://www.midvinterblot.com/resources/images/link.png" />
-<link rel="image_src" href="http://www.midvinterblot.com/resources/images/link.png" />
+<meta property="og:image" content="https://i.midvinterblot.com/link.png" />
+<link rel="image_src" href="https://i.midvinterblot.com/link.png" />
 	<?php endif; ?>
 	
 <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -83,6 +83,9 @@
 	wp_head();
 	
 ?>
+
+	<!-- JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
 	
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="/resources/css/background.css" media="screen" />
@@ -95,8 +98,8 @@
 	
 	<!-- Contact Box -->
 	<link rel="stylesheet" type="text/css" media="all" href="/resources/fancybox/jquery.fancybox.css">
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script type="text/javascript" src="/resources/fancybox/jquery.fancybox.js?v=2.0.6"></script>
+	<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
+	<script async type="text/javascript" src="/resources/fancybox/jquery.fancybox.js"></script>
 	
 	
 
@@ -128,7 +131,7 @@
 	<div class="backgroundBR"></div>
 	<div class="backgroundB"></div>
 	<div class="backgroundRun"></div>
-	<div class="backgroundGub1"><a href="https://www.youtube.com/watch?v=SEBLt6Kd9EY" class="backgroundGub1link"><img src="/resources/images/1x1trans.png" alt="Easter egg!"  width="135" height="148" /></a></div>
+	<div class="backgroundGub1"><a href="https://www.youtube.com/watch?v=SEBLt6Kd9EY" class="backgroundGub1link"><img src="https://i.midvinterblot.com/1x1trans.png" alt="Easter egg!"  width="135" height="148" /></a></div>
 <!-- Here be content -->
 	<div class="contentContainer" itemscope itemtype="http://schema.org/MusicGroup">
 		<h1 class="hidden" itemprop="name">Midvinterblot</h1>
@@ -137,7 +140,7 @@
 			<span class="hidden" itemprop="addressRegion">Stockholm</span>
 		</div>
 		<div class="navbar">
-			<object id="svg1" data="/resources/images/orm2.svg" type="image/svg+xml"></object>
+			<object id="svg1" data="https://i.midvinterblot.com/orm2.svg" type="image/svg+xml"></object>
 		</div>
                 
                     <?php if( is_home() || is_front_page() ) : ?>
@@ -148,37 +151,37 @@
 			<!-- Here be links -->
 			<a href="http://www.facebook.com/pages/Midvinterblot/159428540760626"
 			  title="Facebook" target="_blank" itemprop="url">
-				<img src="/resources/images/icons/facebook.png" alt="Midvinterblot on Facebook" width="59" height="59"/>
+				<img src="https://i.midvinterblot.com/social/facebook.png" alt="Midvinterblot on Facebook" width="59" height="59"/>
 			</a>
 
 			<a href="http://www.youtube.com/user/Midvinterblotband/"
 			  title="Youtube" target="_blank" itemprop="url">
-				<img src="/resources/images/icons/youtube.png" alt="Midvinterblot on Youtube" width="59" height="59"/>
+				<img src="https://i.midvinterblot.com/social/youtube.png" alt="Midvinterblot on Youtube" width="59" height="59"/>
 			</a>
 			
 
 			
 			<a href="http://www.twitter.com/midvinterblot"
 			  title="Twitter" target="_blank" itemprop="url">
-				<img src="/resources/images/icons/twitter.png" alt="Midvinterblot on Twitter" width="59" height="59"/>
+				<img src="https://i.midvinterblot.com/social/twitter.png" alt="Midvinterblot on Twitter" width="59" height="59"/>
 			</a>
 			
 			<a href="http://www.metal-archives.com/bands/Midvinterblot/3540356739"
 			  title="Encyclopedia Metallum" target="_blank" itemprop="url">
-				<img src="/resources/images/icons/mchives.png" alt="Midvinterblot on Encyclopaedia Metallum" width="59" height="59"/>
+				<img src="https://i.midvinterblot.com/social/mchives.png" alt="Midvinterblot on Encyclopaedia Metallum" width="59" height="59"/>
 			</a>
-			<?php if( is_home() || is_front_page() ) : ?>
-			<a class="button modalbox" href="#inline" itemprop="email">
-				<img src="/resources/images/icons/mail.png" alt="Contact Midvinterblot By Mail" width="59" height="59"/>
+			<?php //if( is_home() || is_front_page() ) : ?>
+			<a class="modalbox" href="#inline" title="Contact us" itemprop="email">
+				<img src="https://i.midvinterblot.com/social/mail.png" alt="Contact Midvinterblot By Mail" width="59" height="59"/>
 			</a>
-			<?php endif; ?>
+			<?php //endif; ?>
 		</div>
 
 		<!-- Contact Box -->
 		<div id="inline">
 			<form id="contact" name="contact" action="#" method="post">
 				<fieldset>
-				<legend><?php echo $mailbox_title; ?></legend>
+				<legend><?php //echo $mailbox_title; ?>CONTACT US</legend>
 
 				<label for="email"><span class="required">*</span> Your Email Address</label>
 				<input name="email" type="email" id="email" class="txt" />
@@ -191,7 +194,7 @@
 				<label for="msg"><span class="required">*</span> Your Message</label>
 				<textarea name="msg" id="msg"></textarea>
 
-				<input id="send" class="button" type="image" src="/resources/images/icons/sendmail.png" alt="send message" name="send email" width="124" height="39">
+				<input id="send" class="button" type="image" src="https://i.midvinterblot.com/social/sendmail.png" alt="send message" name="send email" width="124" height="39">
 				</fieldset>
 			</form>
 		</div>
@@ -199,6 +202,6 @@
 		<div class="content">
 			<?php if( is_home() || is_front_page() ) : ?>
 				<br /><br /><br /><br />
-				<img src="/resources/images/divider.png" alt="ornament"/>
+				<img src="https://i.midvinterblot.com/divider.png" alt="ornament"/>
 				<br /><br /><br /><br />
 			<?php endif; ?>

@@ -19,7 +19,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
-
+/*
 ?>
 <form class="woocommerce-ordering" method="get">
 	<select name="orderby" class="orderby">
@@ -29,3 +29,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</select>
 	<?php wc_query_string_form_fields( null, array( 'orderby', 'submit' ) ); ?>
 </form>
+*/?>
