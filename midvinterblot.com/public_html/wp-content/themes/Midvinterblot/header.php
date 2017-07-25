@@ -8,7 +8,8 @@
  * @subpackage Twenty_Eleven
  * @since Twenty Eleven 1.0
  */
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <!--[if IE 6]>
 <html id="ie6" <?php language_attributes(); ?>>
 <![endif]-->
@@ -23,7 +24,7 @@
 <!--<![endif]-->
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="width=device-width, user-scalable=1">
 <title><?php
 	// Print the <title> tag based on what is being viewed.
 	global $page, $paged;
@@ -48,160 +49,146 @@
 <meta property="og:title" content="Midvinterblot"/>
 <meta name="description" content="The official webpage of the swedish folk-metal band Midvinterblot" />
 <meta property="og:description" content="The official webpage of the swedish folk-metal band Midvinterblot" />
-<?php if (is_single()): ?>
-<meta property="og:type" content="article" />
-<meta property="og:image" content="<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ) ?>" />
-<link rel="image_src" href="<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ) ?>" />
-<?php else: ?>
+
 <meta property="og:type" content="website" />
 <meta property="og:image" content="https://i.midvinterblot.com/link.png" />
 <link rel="image_src" href="https://i.midvinterblot.com/link.png" />
-	<?php endif; ?>
+
 	
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<style>
+<?php if( is_home() || is_front_page() ) : ?>
+.content{
+	grid-template-columns: 1fr 600px 1fr;
+	grid-template-rows: 113px 70px 350px 60px auto auto auto 50px;
+	grid-template-areas: 
+		".	.		." 
+		".	navbar	."
+		".	logo	."
+		".	links	."
+		".	knop	."
+		".	content	."
+		".	sidebar ."
+		".	.		.";
+}
+
+@media screen and (min-width: 900px) {
+	.content{
+		
+		grid-template-columns: minmax(0px, 200px) 600px minmax(0px, 200px);
+		grid-template-rows: 113px 70px 350px 60px auto auto;
+		grid-template-areas: 
+			".	.		." 
+			".	navbar	."
+			".	logo	."
+			".	links	sidebar"
+			".	knop	sidebar"
+			".	content	sidebar";
+	}
+}
+<?php else : ?>
+.content{
+	grid-template-columns: 1fr 600px 1fr;
+	grid-template-rows: 113px 70px 60px auto auto auto 50px;
+	grid-template-areas: 
+		".	.		." 
+		".	navbar	."
+		".	links	."
+		".	knop	."
+		".	content	."
+		".	sidebar ."
+		".	.		.";
+}
+
+@media screen and (min-width: 900px) {
+	.content{
+		
+		grid-template-columns: minmax(0px, 200px) 600px minmax(0px, 200px);
+		grid-template-rows: 113px 70px 60px auto auto;
+		grid-template-areas: 
+			".	.		." 
+			".	navbar	."
+			".	links	sidebar"
+			".	knop	sidebar"
+			".	content	sidebar";
+	}
+}
+<?php endif; ?>
+</style>
+
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
-<?php
-	/*
-	 * We add some JavaScript to pages with the comment form
-	 * to support sites with threaded comments (when in use).
-	 */
-	if ( is_singular() && get_option( 'thread_comments' ) )
-		wp_enqueue_script( 'comment-reply' );
 
+
+
+<!-- wp -->
+<?php
 	/*
 	 * Always have wp_head() just before the closing </head>
 	 * tag of your theme, or you will break many plugins, which
 	 * generally use this hook to add elements to <head> such
 	 * as styles, scripts, and meta tags.
 	 */
+	 
+	 
 	wp_head();
-	
 ?>
 
-	<!-- JS -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
-	
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="/resources/css/background.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="/resources/css/style.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="/resources/css/stylesmall.css" media='screen and (max-width: 1205px)' />
-	<link rel="stylesheet" type="text/css" href="/resources/css/stylesmaller.css" media='screen and (max-width: 999px)' />
-	<link rel="stylesheet" type="text/css" href="/resources/css/backgroundmobile.css" media='screen and (max-width: 650px)' />
-	<link rel="stylesheet" type="text/css" href="/resources/css/stylemobile.css" media='screen and (max-width: 650px)' />
-	<link rel="stylesheet" type="text/css" href="/resources/css/print.css" media="print" />
-	
-	<!-- Contact Box -->
-	<link rel="stylesheet" type="text/css" media="all" href="/resources/fancybox/jquery.fancybox.css">
-	<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
-	<script async type="text/javascript" src="/resources/fancybox/jquery.fancybox.js"></script>
-	
-	
-
 </head>
+<body>
+<div class="wrapper">
+	<div class="background">
+		<div class="BgTL"></div>
+		<div class="BgTR"></div>
+		<div class="BgTM"></div>
+		<div class="BgTML"></div>
+		<div class="BgTMR"></div>
+		<div class="BgML"></div>
+		<div class="BgBL"></div>
+		<div class="BgBR"></div>
+		<div class="BgBM"></div>
+		<div class="BgSign"></div>
+	</div>
 
-<body <?php body_class(); ?>>
-<!-- google -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-39947911-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-<!-- Here be background -->
-<div class="master">
-	<div class="backgroundTL"></div>
-	<div class="backgroundTR"></div>
-	<div class="backgroundTM1"></div>
-	<div class="backgroundTM2"></div>
-	<div class="backgroundTML"></div>
-	<div class="backgroundTMR"></div>
-	<div class="backgroundML"></div>
-	<div class="backgroundBL"></div>
-	<div class="backgroundBR"></div>
-	<div class="backgroundB"></div>
-	<div class="backgroundRun"></div>
-	<div class="backgroundGub1"><a href="https://www.youtube.com/watch?v=SEBLt6Kd9EY" class="backgroundGub1link"><img src="https://i.midvinterblot.com/1x1trans.png" alt="Easter egg!"  width="135" height="148" /></a></div>
-<!-- Here be content -->
-	<div class="contentContainer" itemscope itemtype="http://schema.org/MusicGroup">
-		<h1 class="hidden" itemprop="name">Midvinterblot</h1>
-		<div class="hidden" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-			<span class="hidden" itemprop="addressCountry">Sweden</span>
-			<span class="hidden" itemprop="addressRegion">Stockholm</span>
-		</div>
+	<div class="content">
 		<div class="navbar">
 			<object id="svg1" data="https://i.midvinterblot.com/orm2.svg" type="image/svg+xml"></object>
 		</div>
-                
-                    <?php if( is_home() || is_front_page() ) : ?>
-                    <div class="logo"></div>
-                    <?php endif; ?>
-
+		<?php if( is_home() || is_front_page() ) : ?>
+			<div class="logo"></div>
+		<?php endif; ?>
 		<div class="links" itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
-			<!-- Here be links -->
+		<!-- Here be links -->
 			<a href="http://www.facebook.com/pages/Midvinterblot/159428540760626"
 			  title="Facebook" target="_blank" itemprop="url">
 				<img src="https://i.midvinterblot.com/social/facebook.png" alt="Midvinterblot on Facebook" width="59" height="59"/>
 			</a>
-
 			<a href="http://www.youtube.com/user/Midvinterblotband/"
 			  title="Youtube" target="_blank" itemprop="url">
 				<img src="https://i.midvinterblot.com/social/youtube.png" alt="Midvinterblot on Youtube" width="59" height="59"/>
 			</a>
-			
-
-			
 			<a href="http://www.twitter.com/midvinterblot"
 			  title="Twitter" target="_blank" itemprop="url">
 				<img src="https://i.midvinterblot.com/social/twitter.png" alt="Midvinterblot on Twitter" width="59" height="59"/>
 			</a>
-			
 			<a href="http://www.metal-archives.com/bands/Midvinterblot/3540356739"
 			  title="Encyclopedia Metallum" target="_blank" itemprop="url">
 				<img src="https://i.midvinterblot.com/social/mchives.png" alt="Midvinterblot on Encyclopaedia Metallum" width="59" height="59"/>
 			</a>
-			<?php //if( is_home() || is_front_page() ) : ?>
 			<a class="modalbox" href="#inline" title="Contact us" itemprop="email">
 				<img src="https://i.midvinterblot.com/social/mail.png" alt="Contact Midvinterblot By Mail" width="59" height="59"/>
 			</a>
-			<?php //endif; ?>
 		</div>
 
-		<!-- Contact Box -->
-		<div id="inline">
-			<form id="contact" name="contact" action="#" method="post">
-				<fieldset>
-				<legend><?php //echo $mailbox_title; ?>CONTACT US</legend>
 
-				<label for="email"><span class="required">*</span> Your Email Address</label>
-				<input name="email" type="email" id="email" class="txt" />
-				
-				<br />
-				<label for="subject"><span class="required">*</span> Message Subject</label>
-				<input name="subject" type="text" id="subject" class="txt"/>
-
-				<br />
-				<label for="msg"><span class="required">*</span> Your Message</label>
-				<textarea name="msg" id="msg"></textarea>
-
-				<input id="send" class="button" type="image" src="https://i.midvinterblot.com/social/sendmail.png" alt="send message" name="send email" width="124" height="39">
-				</fieldset>
-			</form>
-		</div>
-		<!-- Other Content -->
-		<div class="content">
-			<?php if( is_home() || is_front_page() ) : ?>
-				<br /><br /><br /><br />
+		<?php if( is_home() || is_front_page() ) : ?>
+			<div class="knopdivider">
 				<img src="https://i.midvinterblot.com/divider.png" alt="ornament"/>
-				<br /><br /><br /><br />
-			<?php endif; ?>
+			</div>
+		<?php endif; ?>
+		<!-- Wordpress Content -->

@@ -766,6 +766,7 @@ add_action('new_to_publish', 'auto_featured_image');
 add_action('pending_to_publish', 'auto_featured_image');
 add_action('future_to_publish', 'auto_featured_image');
 
+
 function your_theme_woocommerce_scripts() {
   wp_enqueue_style( 'custom-woocommerce-style', get_template_directory_uri() . '/css/custom-woocommerce.css' );
 }
@@ -816,6 +817,53 @@ function woocommerce_support() {
 }
 
 
-//do not autoload jquery
-wp_deregister_script('jquery'); 
-wp_register_script('jquery', '', '', '', true);
+/* =Clean up the WordPress head
+------------------------------------------------- */
+
+    // remove header links
+    add_action('init', 'tjnz_head_cleanup');
+    function tjnz_head_cleanup() {
+        remove_action( 'wp_head', 'feed_links_extra', 3 );                      // Category Feeds
+        remove_action( 'wp_head', 'feed_links', 2 );                            // Post and Comment Feeds
+        remove_action( 'wp_head', 'rsd_link' );                                 // EditURI link
+        remove_action( 'wp_head', 'wlwmanifest_link' );                         // Windows Live Writer
+        remove_action( 'wp_head', 'index_rel_link' );                           // index link
+        remove_action( 'wp_head', 'parent_post_rel_link', 10, 0 );              // previous link
+        remove_action( 'wp_head', 'start_post_rel_link', 10, 0 );               // start link
+        remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );   // Links for Adjacent Posts
+        remove_action( 'wp_head', 'wp_generator' );                             // WP version
+        if (!is_admin()) {
+            wp_deregister_script('jquery');                                     // De-Register jQuery
+            wp_register_script('jquery', '', '', '', true);                     // Register as 'empty', because we manually insert our script in header.php
+        }
+    }
+
+    // remove WP version from RSS
+    add_filter('the_generator', 'tjnz_rss_version');
+    function tjnz_rss_version() { return ''; }
+	
+/* tidy up woocommerce */
+//* Enqueue scripts and styles
+add_action( 'wp_enqueue_scripts', 'crunchify_disable_woocommerce_loading_css_js' );
+ 
+function crunchify_disable_woocommerce_loading_css_js() {
+ 
+	// Check if WooCommerce plugin is active
+	if( function_exists( 'is_woocommerce' ) ){
+ 
+		// Check if it's any of WooCommerce page
+		if(! is_woocommerce() && ! is_cart() && ! is_checkout() ) { 		
+			
+			## Dequeue WooCommerce styles
+			wp_dequeue_style('woocommerce-layout'); 
+			wp_dequeue_style('woocommerce-general'); 
+			wp_dequeue_style('woocommerce-smallscreen'); 	
+ 
+			## Dequeue WooCommerce scripts
+			wp_dequeue_script('wc-cart-fragments');
+			wp_dequeue_script('woocommerce'); 
+			wp_dequeue_script('wc-add-to-cart'); 
+		
+		}
+	}	
+}
