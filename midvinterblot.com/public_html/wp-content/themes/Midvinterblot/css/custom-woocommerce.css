@@ -1,6 +1,10 @@
 
 body {
-    font-family: 'IM Fell DW Pica', serif !important;
+   /* font-family: 'IM Fell DW Pica', serif !important; */
+}
+
+#container{
+	grid-area: content;
 }
 
 .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce ul.products li.product .price
